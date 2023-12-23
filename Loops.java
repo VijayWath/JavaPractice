@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int table;
+        System.out.println("enter number");
+        int num = sc.nextInt();
+        for (int i = 1; i <= 10; i++) {
+            table = num * i;
+            System.out.println(table);
+        }
+
+    }
+
+}
