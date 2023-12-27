@@ -9,6 +9,7 @@ public class bitman {
         // }else{
         //     System.out.println("bit is 1");
         // }
+        
         //set
         int n =5;
         int pos = 1;
