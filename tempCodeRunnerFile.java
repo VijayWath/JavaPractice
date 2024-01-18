@@ -1,1 +1,0 @@
-+ "G" + str.substring(i + 1);
