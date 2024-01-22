@@ -11,7 +11,6 @@ public class abundant {
         if (num < sum) {
             System.out.println("is Abundant");
         } else {
-
             System.out.println("not abundant");
         }
     }
@@ -20,5 +19,6 @@ public class abundant {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         isAbandant(num);
+        sc.close();
     }
 }

@@ -17,7 +17,7 @@ public class fibbonaci {
         int n = sc.nextInt();
         int a = 0, b = 1;
         System.out.print(a + " ");
-        System.out.print(b);
+        System.out.print(b + " ");
         retfibbonaci(a, b, n);
         sc.close();
     }
